@@ -52,7 +52,7 @@ export class PasswordChecker {
 
   private checkForNumber(password: string, reasons: PasswordErrors[]) {
     const hasNumber = /\d/
-    if (!hasNumber.test(password)) {
+     if (!hasNumber.test(password)) {
       reasons.push(PasswordErrors.NO_NUMBER)
     }
   }

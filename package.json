@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose --silent",
     "start": "ts-node src/app/server_app/Launcher.ts"
   },
   "keywords": [],

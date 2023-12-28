@@ -146,7 +146,7 @@ describe('ReservationHandler suite test', () => {
 			)
 		})
 
-		it('should return a 404 because the reservation ID was not founded', async () => {
+		it('should return a 404 because the reservation ID was not found', async () => {
 			request.method = HTTP_METHODS.GET
 			request.url = `/someRoute/${someId}`
 			const spy = jest.spyOn(sut as any, 'isOperationAuthorized')
